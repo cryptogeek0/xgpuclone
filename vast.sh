@@ -7,37 +7,37 @@ sleep 15s
 echo "---------------------------"
 
 sudo apt -y install ocl-icd-opencl-dev
-sleep 15s
+
 echo "---------------------------"
 
 sudo apt -y install nano
-sleep 15s
+
 echo "---------------------------"
 
 sudo apt -y install htop
-sleep 15s
+
 echo "---------------------------"
 
 # sudo apt -y install nvtop
 sudo apt -y install cmake
-sleep 15s
+
 echo "---------------------------"
 
 sudo apt -y install python3-pip
-sleep 15s
+
 echo "---------------------------"
 
 # Clone the repository and build the project
 git clone https://github.com/shanhaicoder/XENGPUMiner.git
-sleep 15s
+
 echo "---------------------------"
 
 cd XENGPUMiner
-sleep 15s
+
 echo "---------------------------"
 
 chmod +x build.sh
-sleep 15s
+
 echo "---------------------------"
 
 ./build.sh
