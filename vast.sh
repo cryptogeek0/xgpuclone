@@ -3,7 +3,7 @@
 # Update package list and install necessary packages
 
 sudo apt update
-
+pause
 echo "---------------------------"
 
 sudo apt -y install ocl-icd-opencl-dev
