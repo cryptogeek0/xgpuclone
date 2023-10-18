@@ -37,6 +37,7 @@ cd XENGPUMiner
 echo "---------------------------"
 
 chmod +x build.sh
+# sudo apt-get update && sudo apt-get install build-essential
 
 echo "---------------------------"
 
