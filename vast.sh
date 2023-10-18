@@ -59,5 +59,6 @@ sudo nohup python3 miner.py --gpu=true > miner.log 2>&1 &
 
 echo "---------------------------"
 
-sudo nohup ./xengpuminer > xengpuminer.log 2>&1 
+sudo nohup ./xengpuminer > xengpuminer.log 2>&1
+# sudo nohup xengpuminer > xengpuminer.log 2>&1
 echo "---------------------------"
